@@ -1,0 +1,235 @@
+h1 {
+    color: red;
+    text-align: center;
+    text-shadow: 4px 4px 5px gray;
+}
+
+.title {
+    color: rgb(72,255,43);
+}
+
+#italic {
+    color: orange;
+}
+
+nav {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 30px;
+}
+
+.container {
+    border: 10px dashed rgb(51,221,255);
+    margin: 50px 5px 25px 0px;
+    padding: 30px 0px 10px 5px;
+}
+
+img{
+    box-shadow: 18px 8px 10px 8px grey;
+}
+
+.circle-img{
+    border-radius: 50%;
+}
+
+.box {
+    background: blue;
+    height: 200px;
+    width: 200px;
+    margin: 10px 10px;
+    /*box-shadow: 18px 8px 30px 40px grey inset;*/
+}
+
+@keyframes fadeMe {
+    0%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(90deg);
+    }
+    50% {
+            transform: rotate(180deg);
+    }
+    100% {
+            transform: rotate(360deg);
+    }
+}
+
+@keyframes getBigger {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+            transform: scale(2);
+    }
+    100% {
+            transform: scale(.5);
+    }
+}
+
+@keyframes changeColors {
+    0% {background-color: grey;}
+    25% {background-color: purple;}
+    50% {background-color: yellow;}
+    75% {background-color: pink;}
+    100% {background-color: grey;}
+}
+@keyframes moveBox {
+    0% {left: 0px; top: 0px;}
+    25% {left: 100px; top: 0px;}
+    50% {left: 100px; top: 200px;}
+    75% {left: 0px; top: 200px;}
+    100% {left: 0px; top: 0px;}
+}
+
+#box1 {
+    animation-name: fadeMe;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#box2 {
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-iteration-count: 4s;
+    animation-timing-function: ease-in-out;
+    border-radius: 10%;
+    background-image: radial-gradient(circle, purple, orange, yellow, pink, purple);
+}
+#box3 {
+    animation: getBigger infinite 8s ease-in;
+    border-radius: 50%;
+    background: orange;
+}
+#box4 {
+    animation: changeColors 3s 2s forwards;
+}
+#box5 {
+    position: relative;
+    background: red;
+    animation: moveBox 5s 3s;
+}
+
+#box6 {
+    top: 10px;
+    left: 20px;
+    position: relative /*fixed*/;
+}
+
+html /*body*/ {
+    /*background-image: url("tofaş2.png");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-image: /*linear-gradient*/radial-gradient(/*to left,*/ blue, green, purple);
+}
+
+.flex {
+    margin: 30px;
+    border: 10px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*flex-grow: 2;*/
+    /*flex-direction: column-reverse;*/
+    padding: 100x
+}
+
+form input, textarea, button {
+    display: block;
+    margin: 30px;
+}
+
+.nav-wrapper {
+    background-color: blue;
+}
+
+.row {
+    margin: 30px;
+}
+
+.input-field {
+    margin: 20px;
+}
+
+.contact-box {
+    display: flex;
+    justify-content center;
+}
+
+/*grid boxes*/
+  .a {
+    grid-column: col / span  2;
+    grid-row: row ;
+    display: flex;
+    justify-content: center;
+  }
+  .b {
+    grid-column: col 4 / span  2 ;
+    grid-row: row ;
+    display: flex;
+    justify-content: center;
+  }
+  .c {
+    grid-column: col / span 5;
+    grid-row: row 2 ;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(pink, yellow, purple, orange);
+  }
+  .d {
+    grid-column: col  / span 3 ;
+    grid-row: row 3 ;
+  }
+
+  .e {
+    grid-column: col 3 / span 3;
+    grid-row: row 3;
+  }
+
+  .f {
+    grid-column: col 2 / span 3;
+    grid-row: row 2  ;
+    background-color: blue;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(orange, purple, yellow, pink);
+  }
+
+
+.wrapper2 {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, [col] 20% ) ;
+    grid-template-rows: repeat(3, [row] auto  );
+    background-color: #fff;
+    color: #444;
+  }
+.box2 {
+    background-color: #fff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    z-index:10;
+
+  }
+/*grid boxes*/
