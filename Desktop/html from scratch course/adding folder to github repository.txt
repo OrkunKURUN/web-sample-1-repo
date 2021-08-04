@@ -1,0 +1,144 @@
+Orkun@LAPTOP-OCF9K8IF MINGW64 ~/desktop/html from scratch course (master)
+$ git add .
+
+Orkun@LAPTOP-OCF9K8IF MINGW64 ~/desktop/html from scratch course (master)
+$ git status
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .idea/.gitignore
+        new file:   .idea/codeStyles/Project.xml
+        new file:   .idea/codeStyles/codeStyleConfig.xml
+        new file:   .idea/html from scratch course.iml
+        new file:   .idea/misc.xml
+        new file:   .idea/modules.xml
+        new file:   about.html
+        new file:   contact.html
+        new file:   contact2.html
+        new file:   index.html
+        new file:   style.css
+        new file:   "tofa\305\2372.png"
+        new file:   "tofa\305\237k.jpg"
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.PyCharmCE2019.3/
+        ../../.VirtualBox/
+        ../../.Xilinx/
+        ../../.android/
+        ../../.conda/
+        ../../.condarc
+        ../../.gem/
+        ../../.gitconfig
+        ../../.idlerc/
+        ../../.ipython/
+        ../../.irbrc
+        ../../.jdks/
+        ../../.jupyter/
+        ../../.lesshst
+        ../../.p2/
+        ../../3D Objects/
+        ../../AppData/
+        ../../Contacts/
+        ../Anaconda Navigator (anaconda3).lnk
+        ../Dev-C++.lnk
+        ../Kaspersky/
+        ../desktop.ini
+        ../games/
+        ../homework_screenshots/
+        ../logisim/
+        "../oyunla\305\237t\304\261rma 101.docx"
+        "../\302\265Torrent.lnk"
+        "../\304\260nat TV PRO.lnk"
+        ../../Documents/
+        ../../Downloads/
+        ../../Favorites/
+        ../../IdeaProjects/
+        ../../IntelGraphicsProfiles/
+        ../../Links/
+        ../../MicrosoftEdgeBackups/
+        ../../Music/
+        ../../MyFirstGame/
+        ../../NTUSER.DAT{ce072a87-838f-11eb-81d8-823e9d1c92b6}.TM.blf
+        ../../NTUSER.DAT{ce072a87-838f-11eb-81d8-823e9d1c92b6}.TMContainer00000000000000000001.regtrans-ms
+        ../../NTUSER.DAT{ce072a87-838f-11eb-81d8-823e9d1c92b6}.TMContainer00000000000000000002.regtrans-ms
+        ../../OneDrive/
+        ../../Pictures/
+        ../../PycharmProjects/
+        ../../Saved Games/
+        ../../Searches/
+        ../../Videos/
+        ../../anaconda3/
+        ../../ntuser.dat
+        ../../ntuser.dat.log1
+        ../../ntuser.dat.log2
+        ../../ntuser.dat{4b3429bf-c117-11eb-8211-40234305dab4}.TM.blf
+        ../../ntuser.dat{4b3429bf-c117-11eb-8211-40234305dab4}.TMContainer00000000000000000001.regtrans-ms
+        ../../ntuser.dat{4b3429bf-c117-11eb-8211-40234305dab4}.TMContainer00000000000000000002.regtrans-ms
+        ../../ntuser.dat{8dfcfefe-c125-11eb-8211-40234305dab4}.TM.blf
+        ../../ntuser.dat{8dfcfefe-c125-11eb-8211-40234305dab4}.TMContainer00000000000000000001.regtrans-ms
+        ../../ntuser.dat{8dfcfefe-c125-11eb-8211-40234305dab4}.TMContainer00000000000000000002.regtrans-ms
+        ../../ntuser.ini
+
+
+Orkun@LAPTOP-OCF9K8IF MINGW64 ~/desktop/html from scratch course (master)
+$ git commit -m "first commit"
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (19/19), done.
+Total 19 (delta 0), reused 0 (delta 0), pack-reused 0
+Checking connectivity: 19807, done.
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+[master (root-commit) af67566] first commit
+ 13 files changed, 466 insertions(+)
+ create mode 100644 Desktop/html from scratch course/.idea/.gitignore
+ create mode 100644 Desktop/html from scratch course/.idea/codeStyles/Project.xml
+ create mode 100644 Desktop/html from scratch course/.idea/codeStyles/codeStyleConfig.xml
+ create mode 100644 Desktop/html from scratch course/.idea/html from scratch course.iml
+ create mode 100644 Desktop/html from scratch course/.idea/misc.xml
+ create mode 100644 Desktop/html from scratch course/.idea/modules.xml
+ create mode 100644 Desktop/html from scratch course/about.html
+ create mode 100644 Desktop/html from scratch course/contact.html
+ create mode 100644 Desktop/html from scratch course/contact2.html
+ create mode 100644 Desktop/html from scratch course/index.html
+ create mode 100644 Desktop/html from scratch course/style.css
+ create mode 100644 "Desktop/html from scratch course/tofa\305\2372.png"
+ create mode 100644 "Desktop/html from scratch course/tofa\305\237k.jpg"
+
+Orkun@LAPTOP-OCF9K8IF MINGW64 ~/desktop/html from scratch course (master)
+$
+
+Orkun@LAPTOP-OCF9K8IF MINGW64 ~/desktop/html from scratch course (master)
+$ git remote add origin https://github.com/OrkunKURUN/web-sample-1-repo.git
+
+Orkun@LAPTOP-OCF9K8IF MINGW64 ~/desktop/html from scratch course (master)
+$ git push -u origin master
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (19/19), 288.87 KiB | 96.29 MiB/s, done.
+Total 19 (delta 0), reused 19 (delta 0), pack-reused 0
+To https://github.com/OrkunKURUN/web-sample-1-repo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Orkun@LAPTOP-OCF9K8IF MINGW64 ~/desktop/html from scratch course (master)
+$
